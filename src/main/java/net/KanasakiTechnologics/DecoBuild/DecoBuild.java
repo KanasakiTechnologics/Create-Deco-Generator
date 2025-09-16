@@ -4,6 +4,7 @@ import net.KanasakiTechnologics.DecoBuild.Block.DecoBlocks;
 import net.KanasakiTechnologics.DecoBuild.Fluid.Registery.DecoFluid;
 import net.KanasakiTechnologics.DecoBuild.Fluid.Registery.DecoFluidType;
 import net.KanasakiTechnologics.DecoBuild.Item.DecoItems;
+import net.KanasakiTechnologics.DecoBuild.Util.DecoCobbleGen;
 import net.KanasakiTechnologics.DecoBuild.Util.DecoCreativeTab;
 import org.slf4j.Logger;
 
@@ -58,6 +59,10 @@ public class DecoBuild {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            DecoCobbleGen.registerFluidInteractions();
+        });
+
 
     }
 
