@@ -1,0 +1,18 @@
+{
+  "creativetab.decobuild.molten_liquid": "Molten Liquid",
+  "block.decobuild.molten_stone_mixture": "Molten Stone Mixture",
+  "fluid_type.decobuild.molten_stone_mixture_type": "Molten Stone Mixture",
+  "item.decobuild.molten_stone_mixture_bucket": "Molten Stone Mixture Bucket",
+  "block.decobuild.molten_iron": "Molten Iron",
+  "fluid_type.decobuild.molten_iron_type": "Molten Iron",
+  "item.decobuild.molten_iron_bucket": "Molten Iron Bucket", 
+  "block.decobuild.molten_gold": "Molten Gold",
+  "fluid_type.decobuild.molten_gold_type": "Molten Gold",
+  "item.decobuild.molten_gold_bucket": "Molten Gold Bucket",
+  "block.decobuild.molten_copper": "Molten Copper",
+  "fluid_type.decobuild.molten_copper_type": "Molten Copper",
+  "item.decobuild.molten_copper_bucket": "Molten Copper Bucket",
+  "block.decobuild.molten_zinc": "Molten Zinc",
+  "fluid_type.decobuild.molten_zinc_type": "Molten Zinc",
+  "item.decobuild.molten_zinc_bucket": "Molten Zinc Bucket"
+}

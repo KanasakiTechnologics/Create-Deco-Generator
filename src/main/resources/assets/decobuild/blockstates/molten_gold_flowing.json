@@ -1,0 +1,8 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "decobuild:block/molten_gold_flow",
+    "all": "decobuild:block/molten_gold_flow"
+  }
+}
+
