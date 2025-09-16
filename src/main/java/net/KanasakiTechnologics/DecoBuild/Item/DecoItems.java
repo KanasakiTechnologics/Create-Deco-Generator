@@ -22,6 +22,8 @@ public class DecoItems {
             () -> new BucketItem(DecoFluid.MOLTEN_COPPER.get(),new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).durability(0)));
     public static final DeferredItem<Item> MOLTEN_ZINC_BUCKET = ITEMS.register("molten_zinc_bucket",
             () -> new BucketItem(DecoFluid.MOLTEN_ZINC.get(),new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).durability(0)));
+    public static final DeferredItem<Item> BLAZING_FUEL = ITEMS.register("blazing_fuel",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }

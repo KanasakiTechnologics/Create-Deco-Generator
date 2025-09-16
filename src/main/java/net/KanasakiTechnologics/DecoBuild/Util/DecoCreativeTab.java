@@ -24,6 +24,7 @@ public class DecoCreativeTab {
                         output.accept(DecoItems.MOLTEN_GOLD_BUCKET);
                         output.accept(DecoItems.MOLTEN_COPPER_BUCKET);
                         output.accept(DecoItems.MOLTEN_ZINC_BUCKET);
+                        output.accept(DecoItems.BLAZING_FUEL);
                     }).build());
 
     public static void register(IEventBus eventBus){
