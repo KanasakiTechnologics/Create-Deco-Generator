@@ -1,0 +1,11 @@
+{
+  "variants": {},
+  "multipart": [
+    {
+      "apply": {
+        "model": "decobuild:block/molten_stone_mixture",
+        "uvlock": true
+      }
+    }
+  ]
+}

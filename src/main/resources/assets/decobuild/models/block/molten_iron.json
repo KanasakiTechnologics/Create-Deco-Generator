@@ -1,0 +1,7 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "decobuild:block/molten_iron_still",
+    "all": "decobuild:block/molten_iron_still"
+  }
+}
