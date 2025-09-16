@@ -1,0 +1,14 @@
+// 1.21.1	2025-09-16T22:49:47.3493731	decobuild's processing recipes: mixing
+6073be0a2e77909dd122a826bbb057bd069efe20 data/decobuild/recipe/mixing/copper_block_melting.json
+dd14eb6be0641e652e8f6ed09614309bde92c317 data/decobuild/recipe/mixing/copper_ingot_melting.json
+09666af7bd74d47912d73cfa38f8828eedf673d3 data/decobuild/recipe/mixing/copper_nugget_melting.json
+03f158823ee9c4c376ad2af3a176b4dc0a14bbd1 data/decobuild/recipe/mixing/gold_block_melting.json
+2e6c02e28a05915d8b51007d5c3a3389c57391a0 data/decobuild/recipe/mixing/gold_ingot_melting.json
+8b4c8ab3f3bdd74c9e0c3175b8e3b36e30c66496 data/decobuild/recipe/mixing/gold_nugget_melting.json
+eb0335750b17da582789f8a376dc79af8c457b12 data/decobuild/recipe/mixing/iron_block_melting.json
+b31de8d675740fda6ce343c474983ce838b4cb79 data/decobuild/recipe/mixing/iron_ingot_melting.json
+2077f10acb73df2743508874054edd46ae7c6728 data/decobuild/recipe/mixing/iron_nugget_melting.json
+5b96cdd863154c670a13097d70c01ff614b85152 data/decobuild/recipe/mixing/stone_mixing_base.json
+752861e569d0c9f2c18ee683723c344bc1fc7fb5 data/decobuild/recipe/mixing/zinc_block_melting.json
+7fd0dbd3e4fa2da866119bc5e186cbfcfd579aa1 data/decobuild/recipe/mixing/zinc_ingot_melting.json
+e7bc5226034b56dd7a3a523d17a1f72d5093dbcc data/decobuild/recipe/mixing/zinc_nugget_melting.json

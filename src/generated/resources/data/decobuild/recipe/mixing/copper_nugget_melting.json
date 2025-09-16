@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "create:copper_nugget"
+    }
+  ],
+  "results": [
+    {
+      "amount": 10,
+      "id": "decobuild:molten_copper"
+    }
+  ]
+}
