@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.KanasakiTechnologics.DecoBuild.mixins",
+  "refmap": "decobuild.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlazeBurnerBlockEntityMixin",
+    "BlazeBurnerAccessor"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

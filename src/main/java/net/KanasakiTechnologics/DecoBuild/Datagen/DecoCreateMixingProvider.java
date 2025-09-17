@@ -7,6 +7,7 @@ import com.simibubi.create.content.processing.recipe.HeatCondition;
 import com.simibubi.create.foundation.data.recipe.CreateRecipeProvider;
 import net.KanasakiTechnologics.DecoBuild.DecoBuild;
 import net.KanasakiTechnologics.DecoBuild.Fluid.Registery.DecoFluid;
+import net.KanasakiTechnologics.DecoBuild.Item.DecoItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.ItemTags;
@@ -23,6 +24,14 @@ public class DecoCreateMixingProvider extends MixingRecipeGen {
     }
 
     GeneratedRecipe
+
+    BLAZING_FUEL = create("blazing_fuel",b -> b
+            .require(AllItems.CINDER_FLOUR)
+            .require(AllItems.POWDERED_OBSIDIAN)
+            .require(Items.BLAZE_POWDER)
+            .require(Fluids.LAVA,100)
+            .requiresHeat(HeatCondition.HEATED)
+            .output(DecoItems.BLAZING_FUEL)),
 
     // Metal Melting Recipes (Superheated)
     IRON_NUGGET_MELTING = create("iron_nugget_melting", b -> b
