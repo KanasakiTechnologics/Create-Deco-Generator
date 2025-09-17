@@ -15,5 +15,7 @@
   "item.decobuild.molten_copper_bucket": "Molten Copper Bucket",
   "block.decobuild.molten_zinc": "Molten Zinc",
   "fluid_type.decobuild.molten_zinc_type": "Molten Zinc",
-  "item.decobuild.molten_zinc_bucket": "Molten Zinc Bucket"
+  "item.decobuild.molten_zinc_bucket": "Molten Zinc Bucket",
+  "tooltip.decobuild.blazing.shift_down": "The Cheaty but measly 10 Seconds Superheated Food",
+  "tooltip.decobuild.blazing": "Press §eShift§r for more Information"
 }

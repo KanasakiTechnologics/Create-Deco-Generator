@@ -2,12 +2,14 @@ package net.KanasakiTechnologics.DecoBuild.Item;
 
 import net.KanasakiTechnologics.DecoBuild.DecoBuild;
 import net.KanasakiTechnologics.DecoBuild.Fluid.Registery.DecoFluid;
-import net.minecraft.world.item.BucketItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class DecoItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DecoBuild.MOD_ID);
@@ -23,7 +25,17 @@ public class DecoItems {
     public static final DeferredItem<Item> MOLTEN_ZINC_BUCKET = ITEMS.register("molten_zinc_bucket",
             () -> new BucketItem(DecoFluid.MOLTEN_ZINC.get(),new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).durability(0)));
     public static final DeferredItem<Item> BLAZING_FUEL = ITEMS.register("blazing_fuel",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    if(Screen.hasShiftDown()) {
+                        tooltipComponents.add(Component.translatable("tooltip.decobuild.blazing.shift_down"));
+                    } else {
+                        tooltipComponents.add(Component.translatable("tooltip.decobuild.blazing"));
+                    }
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }
