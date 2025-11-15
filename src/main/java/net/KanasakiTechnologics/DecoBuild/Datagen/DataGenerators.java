@@ -23,5 +23,7 @@ public class DataGenerators {
 
         generator.addProvider(event.includeClient(), new DecoItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeServer(), new DecoCreateMixingProvider(packOutput,lookupProvider));
+        generator.addProvider(event.includeServer(), new DecoCreateCompactingProvider(packOutput,lookupProvider));
+        generator.addProvider(event.includeServer(), new DecoCreateFillingProvider(packOutput,lookupProvider));
     }
 }

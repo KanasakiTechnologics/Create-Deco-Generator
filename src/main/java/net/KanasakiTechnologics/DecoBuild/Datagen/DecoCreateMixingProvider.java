@@ -18,7 +18,7 @@ import net.minecraft.world.level.material.Fluids;
 import java.util.concurrent.CompletableFuture;
 
 @SuppressWarnings("unused")
-public class DecoCreateMixingProvider extends MixingRecipeGen {
+public final class DecoCreateMixingProvider extends MixingRecipeGen {
     public DecoCreateMixingProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
         super(output, registries, DecoBuild.MOD_ID);
     }
@@ -102,7 +102,25 @@ public class DecoCreateMixingProvider extends MixingRecipeGen {
             .require(Fluids.LAVA,100)
             .requiresHeat(HeatCondition.SUPERHEATED)
             .output(DecoFluid.MOLTEN_STONE_MIXTURE.get(),500)
+    ),
+
+    DIORITE = create("diorite", b -> b
+            .require(Items.QUARTZ)
+            .require(Blocks.COBBLESTONE)
+            .output(Blocks.DIORITE)
+    ),
+
+    COBBLESTONE = create("cobblestone",b -> b
+            .require(Fluids.WATER,500)
+            .require(Fluids.LAVA,500)
+            .output(Blocks.COBBLESTONE)
+    ),
+
+    OBSIDIAN = create("obsidian",b -> b
+            .require(Fluids.WATER,500)
+            .require(Fluids.LAVA,500)
+            .require(Blocks.BLUE_ICE)
+            .output(Blocks.OBSIDIAN)
+            .output(Blocks.PACKED_ICE)
     );
-
-
 }

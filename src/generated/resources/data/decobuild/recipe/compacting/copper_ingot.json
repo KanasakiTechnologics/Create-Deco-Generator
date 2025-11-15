@@ -1,0 +1,15 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 90,
+      "fluid": "decobuild:molten_copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:copper_ingot"
+    }
+  ]
+}

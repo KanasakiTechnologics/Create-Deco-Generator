@@ -1,0 +1,14 @@
+// 1.21.1	2025-11-15T20:54:11.3023605	decobuild's processing recipes: compacting
+1387ff0f9c922d52ccc4127cf1a4bd04cf72d704 data/decobuild/recipe/compacting/copper_block.json
+2bf3fc08b05d02e48ce1153619d7d809a705e513 data/decobuild/recipe/compacting/copper_ingot.json
+714a35032202c0dd6d7bbd88df1facf3e5b4a261 data/decobuild/recipe/compacting/copper_nugget.json
+b3759b1c17f6277c5a71f64a0470ddd1c39df0d4 data/decobuild/recipe/compacting/gold_block.json
+d6eee1e9c5decb18aa48927c94cedb4f3ce91605 data/decobuild/recipe/compacting/gold_ingot.json
+149dfb2393474d653bd460d34a3f1cbaa92dea34 data/decobuild/recipe/compacting/gold_nugget.json
+d232dcb98887de25792a62113e42e25e74fc6121 data/decobuild/recipe/compacting/ice_block.json
+7c47873ecd5246b9c2cd50dffa50856a580ac25d data/decobuild/recipe/compacting/iron_block.json
+b9b63e17e9077f5ac89a33d45d0fd929a9a25bba data/decobuild/recipe/compacting/iron_ingot.json
+c07e024dc4458f6c2f5a3a30d3c5df0cdac65eca data/decobuild/recipe/compacting/iron_nugget.json
+591bca44384200d3a23e011430f775f950d80dfb data/decobuild/recipe/compacting/zinc_block.json
+342cc75f79a6423aa31fb60aefe383fa06a69964 data/decobuild/recipe/compacting/zinc_ingot.json
+09cdc17b62fa8671aff7087cb37ff4178cce3bd4 data/decobuild/recipe/compacting/zinc_nugget.json
